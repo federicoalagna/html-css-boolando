@@ -67,6 +67,19 @@ img {
   color: red;
 }
 
+.img2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  display: none;
+}
+
+.content:hover .img2 {
+  display: block;
+}
 /* STILE */
 
 .bg-red {
