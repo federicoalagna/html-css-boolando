@@ -55,6 +55,18 @@ img {
   font-size: smaller;
 }
 
+.cuore {
+  position: absolute;
+  font-size: x-large;
+  top: 10px;
+  right: 0px;
+  padding: 2px 10px;
+}
+
+.cuore:hover {
+  color: red;
+}
+
 /* STILE */
 
 .bg-red {
@@ -67,4 +79,8 @@ img {
 
 .bg-orange {
   background-color: orange;
+}
+
+.bg-white {
+  background-color: white;
 }
